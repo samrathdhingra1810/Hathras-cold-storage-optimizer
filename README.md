@@ -2,7 +2,7 @@
 
 A p-Median facility-location model that finds the best site for a **community-owned potato cold store** in Hathras, Uttar Pradesh. It is part of a multi-purpose (credit + marketing) cooperative proposal aimed at three problems smallholders face: high transport costs from fragmented landholdings, scarce working capital, and the market power of private cold-storage operators.
 
-![Optimal site map](outputs/hathras_optimal_site_map.png)
+![Optimal site map](hathras_optimal_site_map.png)
 
 ## What it does
 1. Generates **synthetic but realistic** data inside the Hathras bounding box (78.0–78.3° E, 27.5–27.8° N): 50 smallholder clusters with volumes built from households × landholding × yield, plus 5 candidate cooperative sites and a status-quo private storage hub.
