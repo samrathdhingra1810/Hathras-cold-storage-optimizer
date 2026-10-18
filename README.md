@@ -26,7 +26,7 @@ jupyter notebook hathras_cold_storage_optimizer.ipynb
 ```
 **Solver note:** PuLP's bundled CBC binary is x86-64 only on macOS and will not launch on Apple Silicon without Rosetta. The notebook uses **HiGHS** (`highspy`) first and falls back to CBC automatically.
 
-## Outputs (`outputs/`)
+## Outputs
 - `hathras_optimal_site_map.png`, `hathras_burden_by_site.png`: figures
 - `hathras_coldstore.gpkg`: layers `farmer_clusters` (with assignments) and `candidate_sites`
 - `cluster_allocation.csv`, `scenario_report.csv`: tables
